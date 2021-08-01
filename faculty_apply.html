@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>  .student_apply{
+        background-image: url(./media/2s.jpeg);
+        padding: 10px;
+        border-color: #000;
+
+
+      }
+      body{
+        background-color: #EEEEEE;
+      }
+      h1{
+        color: #000;
+        text-align: center;
+      font-family: 'Lobster';
+      }
+      .shades
+      {
+          color: rgb(85, 85, 85,0.3);
+      }
+      .styhead
+      {
+        background-color: rgb(85, 85, 85,0.5); 
+        color: seashell;
+        text-align: center;
+        padding-left: 30px;
+        padding-right: 20px;
+        padding: auto;
+      }
+
+
+    </style>
+</head>
+<body>
+ <h1>Form to apply for faculty</h1>
+ <div class="shades"></div>
+<div class="student_apply">
+    <center>
+        
+    <form action="insert_fac.php" method ="post">
+    <table>
+
+  <tr>
+
+<td>
+        <p>
+            <pre>
+                <label for="name" class="styhead">NAME</label>
+                <input type="text" class="style" name = "name" placeholder="Enter name here">
+           </pre>
+        </p>
+        <p>
+            <pre>
+                <label for="email" class="styhead">EMAIL</label>
+                <input type="email" class="style" name = "email" placeholder="Enter Email here">
+           </pre>
+        </p>
+        <p>
+            <pre>
+                <label for="mobileno" class="styhead">MOBILE NO</label>
+                <input type="number" class="style" name ="mobno" placeholder="Enter your mobile number here">
+            </pre>
+         </p>
+         <p>
+            <pre>
+                <label for="city" class="styhead">CITY</label>
+                <input type="text" class="style" name ="city" placeholder="City">
+           </pre>
+        </p>
+        <p>
+            <pre>
+                <label for="category" class="styhead">CATEGORY</label>
+                <select name="category" id="category">
+                    <option value="category" >category</option>
+                    <option value="GENERAL">GENERAL</option>
+                    <option value="SC">SC</option>
+                    <option value="ST">ST</option>
+                    <option value="OBC">OBC</option>
+                </select>
+            </pre>
+         </p>  </p> </td><td>
+         <p>
+            <pre>
+                <label for="age" class="styhead">AGE</label>
+                <input type="number" class="style" name ="age" placeholder="AGE">
+           </pre>
+        </p>
+       <p>
+            <pre>
+                <label for="PAF" class="styhead">POSITION APPLIED FOR</label>
+                <select name="paf" id="PAF">
+                    <option value="POSITION APPLIED FOR">POSITION APPLIED FOR</option>
+                    <option value="HOD">HOD</option>
+                    <option value="ASSISTANT PROFESSOR">ASSISTANT PROFESSOR</option>
+                    <option value="ASSOCIATE PROFESSOR">ASSOCIATE PROFESSOR</option>
+                    <option value="MANAGER">MANAGER</option>
+                </select>
+            </pre>
+         </p>
+       <p>
+            <pre>
+                <label for="DEGREE" class="styhead">DEGREE</label>
+                <select name="course" id="course" required>
+                    <option value="select course">select course</option>
+                    <option value="MBA">MBA</option>
+                    <option value="MCA">MCA</option>
+                    <option value="B.TECH">B.TECH</option>
+                    <option value="M.TECH">M.TECH</option>
+                    <option value="BCA">BCA</option>
+                    <option value="B.COM">B.COM</option>
+                    <option value="M.COM">M.COM</option>
+                </select>
+            </pre>
+        </p>
+        <p>
+            <pre>
+                <label for="DP" class="styhead">DEGREE PERCENTAGE</label>
+                <input type="number" class="style" name ="DP" placeholder="DEGREE PERCENTAGE">
+           </pre>
+        </p>
+        <p>
+            <pre>
+                <label for="EXP" class="styhead">EXPIERIENCE</label>
+                <input type="number" class="style" name ="EXP" placeholder="EXPIERIENCE">
+           </pre>
+        </p>
+        <p>
+            <pre>
+                <label for="DCY" class="styhead">DEGREE COMPLETION YEAR</label>
+                <input type="number" class="style" name ="DCY" placeholder="COMPLETION YEAR">
+           </pre>
+        </p>
+        <p>
+            <pre>
+                <label for="UNIVERSITY" class="styhead">UNIVERSITY</label>
+                <input type="text" class="style" name ="UNIVERSITY" placeholder="UNIVERSITY NAME">
+           </pre>
+        </p></td><td>
+        </td></tr></table>
+        <pre class="styhead" style="padding-top:20px;">
+          <input type="submit" name="SUBMIT" class="style"  id="switch">
+       </pre>
+    </div>
+</div>
+</center>
+</body>
+</html>
