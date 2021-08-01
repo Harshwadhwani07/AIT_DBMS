@@ -11,5 +11,6 @@ Memory	2-GB RAM	4-GB RAM or more
 Display	Super VGA with a resolution of 1024 x 768	Super VGA with a resolution of 1024 x 768
 
 The website terms and conditions agreement details the license of the copyright in the website, includes a disclaimer of liability, an acceptable use clause, a variation clause, a clause specifying the applicable law and jurisdiction and other legal information.
-Copyright©Abraham David Solomon(19CS02),Harsh Wadhwani(19CS40),Anurag Joshi(19CS10),Harshit Tinkar(19CS38)
+
+Copyright © Abraham David Solomon(19CS02), Harsh Wadhwani(19CS40), Anurag Joshi(19CS10), Harshit Tinkar(19CS38)
 
